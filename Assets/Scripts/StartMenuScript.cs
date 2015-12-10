@@ -4,7 +4,6 @@ using System.Collections;
 using System.Text.RegularExpressions;
 
 public class StartMenuScript : MonoBehaviour {
-
 	public Canvas quitMenu;
 	public GameObject login;
 	public GameObject registration;
@@ -142,6 +141,8 @@ public class StartMenuScript : MonoBehaviour {
 	}
 	
 	public void GameLogin() {
+		// Login Authentication method
+		// Verify login credentials
 		Application.LoadLevel("Board");
 	}
 	
